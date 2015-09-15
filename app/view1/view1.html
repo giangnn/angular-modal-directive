@@ -1,1 +1,10 @@
 <p>This is the partial for view 1.</p>
+<p>Hello {{name}}!</p>
+<leo-modal 
+	text="Click me, Im a directive" 
+	template-url="view1/myModalContent2.html"
+	controller="ModalInstance2Ctrl" 
+	modal-closed="modalClosed(result)" 
+	modal-dismissed="modalDismissed()" 
+	data="items">
+</leo-modal>
