@@ -1,8 +1,8 @@
-= Directive for Boottrap UI Modal
+# Directive for Boottrap UI Modal
 
 In LEO, sometimes we need to pop up a modal to do something (most of the time to render a selector) and get back data from the modal. This sample project creates an E directive to simplify this process.
 
-== Usage
+## Usage
 
 In your main page, declare the directive as follow:
 ```html
@@ -23,9 +23,9 @@ This directive will be rendered as a button in which:
 - `modal-dismissed` is a scope method that will be invokved when the modal is dismissed
 - `data` is the Javascript object that will be resolved to your modal controller. In your modal controller, you can resolve it with the name `data`
 
-== Features
+## Features
 - Appears as a button so that Rafa can style it at once
 - Vertically align the modal to the center of the screen 
 
-== How to run this sample project
+## How to run this sample project
 This project is seeded from angular-seed, so just run `npm install` then `npm-start`.
